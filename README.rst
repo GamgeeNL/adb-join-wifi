@@ -17,7 +17,7 @@ variable if you choose the latter)::
 
 Alternatively you can also just download the latest release::
 
-   wget https://github.com/steinwurf/adb-join-wifi/releases/download/1.0.1/adb-join-wifi.apk
+   wget https://github.com/GamgeeNL/adb-join-wifi/releases/download/1.0.2/app.apk
 
 install the app::
 
@@ -70,6 +70,13 @@ To remove all wifi network::
 
     adb shell am start -n com.steinwurf.adbjoinwifi/.MainActivity \
         --esn remove
+
+To add (but not connect) a wifi network::
+
+    adb shell am start -n com.steinwurf.adbjoinwifi/.MainActivity \
+        --esn add -e ssid SSID -e password_type WEP|WPA -e password PASSWORD
+
+Similar to connect command
 
 Modifying existing Wifi configurations
 =============================
