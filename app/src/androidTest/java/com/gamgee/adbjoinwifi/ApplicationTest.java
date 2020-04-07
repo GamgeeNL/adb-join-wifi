@@ -1,4 +1,4 @@
-package com.steinwurf.adbjoinwifi;
+package com.gamgee.adbjoinwifi;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

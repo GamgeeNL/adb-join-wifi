@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.steinwurf.adbjoinwifi"
+        applicationId "com.gamgee.adbjoinwifi"
         minSdkVersion 18
         targetSdkVersion 26
         versionCode 2

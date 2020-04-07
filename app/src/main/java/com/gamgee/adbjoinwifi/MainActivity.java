@@ -1,4 +1,4 @@
-package com.steinwurf.adbjoinwifi;
+package com.gamgee.adbjoinwifi;
 
 import android.Manifest;
 import android.app.admin.DevicePolicyManager;
@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity implements CheckSSIDBroadcas
         Log.d(TAG, "No datastring provided. use the following adb command:");
         Log.d(TAG,
                 "adb shell am start" +
-                        " -n com.steinwurf.adbjoinwifi/.MainActivity " +
+                        " -n com.gamgee.adbjoinwifi/.MainActivity " +
                         "-esn ["+CONNECT+"|"+ADD+"|"+REMOVE+"|"+CLEAR_DEVICE_ADMIN+"] " +
                         "-e ssid SSID " +
                         "-e password_type [WEP|WPA|PEAP] " +

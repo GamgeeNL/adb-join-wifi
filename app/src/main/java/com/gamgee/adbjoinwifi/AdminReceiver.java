@@ -1,4 +1,4 @@
-package com.steinwurf.adbjoinwifi;
+package com.gamgee.adbjoinwifi;
 
 import android.app.admin.DeviceAdminReceiver;
 import android.app.admin.DevicePolicyManager;
